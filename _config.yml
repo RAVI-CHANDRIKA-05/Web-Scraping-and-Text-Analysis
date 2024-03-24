@@ -1,0 +1,11 @@
+#Change title as required
+title: Web Scraping and Text Analysis
+
+
+#Change description: as required
+description: The objective of this assignment was to extract textual data articles from the given URL(from input sheet) and perform text analysis to compute variables that are given in the (text analysis document).
+
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
+
