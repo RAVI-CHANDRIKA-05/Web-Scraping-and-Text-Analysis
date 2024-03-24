@@ -99,6 +99,7 @@ def getscore(textbody):
     neg_score = len([word for word in cleaned_words if word in negativewords])
     return [pos_score, neg_score]
 ```
+
 2. **Compute polarity and subjectivity scores:** Polarity and subjectivity scores are computed to quantify the overall sentiment and objectivity of the text, respectively. These scores provide insights into the tone and nature of the content.
 
 **Polarity Score:**  Determines if a given text is positive or negative in nature. It is calculated by using the formula:
@@ -165,7 +166,7 @@ Counted the number of Syllables in each word of the text by counting the vowels 
 
 These cleaning and analysis steps prepare the textual data for further processing and insights generation.
 
-## Utilizing Scores and Output Data from Text Analysis <a name="Utilizing Scores and Output Data from Text Analysis"></a>
+## Utilizing Scores and Output Data from Text Analysis <a name="utilizing-scores-and-output-data-from-text-analysis"></a>
 
 **Sentiment Analysis Insights:**
 - Identify trends and patterns in sentiment over time or across different sources.
